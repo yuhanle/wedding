@@ -39,7 +39,7 @@
 		name: 'aboutContent',
 		data () {
 			return {
-				src: '/static/img/about.jpg',
+				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/about.jpg',
 				docs: docs
 			}
 		}

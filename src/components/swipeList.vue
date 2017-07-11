@@ -10,19 +10,19 @@
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
 	const imgArr = [{
-		src:'/static/img/list0.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list0.jpg'
 	},{
-		src:'/static/img/list1.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list1.jpg'
 	},{
-		src:'/static/img/list2.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list2.jpg'
 	},{
-		src:'/static/img/list3.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list3.jpg'
 	},{
-		src:'/static/img/list4.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list4.jpg'
 	},{
-		src:'/static/img/list5.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list5.jpg'
 	},{
-		src:'/static/img/list6.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/list6.jpg'
 	}];
 	export default {
 		name: 'swipeList',

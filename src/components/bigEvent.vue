@@ -27,8 +27,8 @@
 		name: 'bigEvent',
 		data () {
 			return {
-				src: '/static/img/share1.jpg',
-				src2: '/static/img/share2.jpg'
+				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share1.jpg',
+				src2: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share2.jpg'
 			}
 		}
 	}

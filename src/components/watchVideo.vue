@@ -28,11 +28,11 @@
 		name: 'watchVideo',
 		data () {
 			return {
-				src: '/static/img/bigevent.jpg',
-				src2: '/static/img/share3.jpg',
+				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/bigevent.jpg',
+				src2: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share3.jpg',
 				video: {
 		          url: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/wedding.mp4',
-		          pic: '/static/img/poster.jpg'
+		          pic: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/poster.jpg'
 		        },
 				autoplay: false
 			}
