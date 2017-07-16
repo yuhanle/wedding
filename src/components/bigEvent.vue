@@ -71,11 +71,15 @@
 		top: 10%;
 		left: 55%;
         width: 336px;
-		 h3 {
+		h3 {
+			margin-left: 20px;
 			text-align: left;
 			font-size: 36px;
 			color: #585858;
 			font-weight: 500;
+		}
+		p {
+			margin-left: 20px;
 		}
 	}
 	.word{

@@ -24,13 +24,6 @@ export default new Router({
 			next();
 		}
     },{
-        path: '/about',
-        components: {
-            header: header,
-            footer: footer,
-			aboutContent: aboutContent
-        }
-    },{
         path: '/bigevent',
         components: {
             header: header,
@@ -41,8 +34,15 @@ export default new Router({
         path: '/video',
         components: {
             header: header,
-            footer: footer,
-            watchVideo: watchVideo
+            watchVideo: watchVideo,
+            footer: footer
+        }
+    },{
+        path: '/about',
+        components: {
+            header: header,
+            aboutContent: aboutContent,
+            footer: footer
         }
     }],
     scrollBehavior (to, from, savedPosition) {

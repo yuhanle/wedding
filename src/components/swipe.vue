@@ -1,7 +1,7 @@
 ﻿<template>
 	<div class="swipe">
 		<swiper :options="swiperOption" >
-			<swiper-slide v-for="item in imgArr" :key='item.src'><img :src="item.src"/></swiper-slide>
+			<swiper-slide v-for="item in imgArr" :key="item.src"><img :src="item.src"/></swiper-slide>
 			<div class="swiper-pagination" slot="pagination"></div>
 		</swiper>
 	</div>
@@ -33,7 +33,14 @@
 				swiperOption: {
 					pagination: '.swiper-pagination',
 					paginationClickable: true,
-                    autoplay: 5000
+                    autoplay: 5000,
+					effect: "coverflow",
+					parallax: true,
+					// Disable preloading of all images
+		          	preloadImages: false,
+		          	// Enable lazy loading
+		          	lazyLoading: true,
+					loop: true
 				},
 				imgArr: imgArr
 			}
