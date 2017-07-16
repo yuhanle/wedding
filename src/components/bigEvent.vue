@@ -2,7 +2,6 @@
 	<div class='content'>
 		<div class='banner'>
 			<h1>我们从这里开始</h1>
-			<h2>2017年10月10日</h2>
 			<img :src='src' />
 		</div>
 		<div class='introduce'>
@@ -10,13 +9,13 @@
 				<p>是该庆幸</p>
 				<p>在我们逐步走入对方的生活中时</p>
 				<p>那份静谧如此自然</p>
+				<p>2017.10.10</p>
 			</div>
 			<div class='pic mar1'>
 				<img :src='src2' />
 				<div class='ad'>
 					<h3>没有海誓山盟<br>幸福足够</h3>
 					<p class='word'>如同太平盛世一叶飘舟，游际于岁月长河。</p>
-					<p class='word'>于水乐，与舟乐，亦与大好河山乐。</p>
 				</div>
 			</div>
 		</div>
@@ -27,7 +26,7 @@
 		name: 'bigEvent',
 		data () {
 			return {
-				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share1.jpg',
+				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/poster2.jpg',
 				src2: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share2.jpg'
 			}
 		}
@@ -44,19 +43,10 @@
 	.content .banner h1{
 		position: absolute;
 		width: 100%;
-		top: 160px;
+		top: 80px;
 		z-index: 8;
 		color: white;
-		font-size: 64px;
-		@include fade-in;
-	}
-	.content .banner h2{
-		position: absolute;
-		width: 100%;
-		top: 300px;
-		z-index: 8;
-		color: white;
-		font-size: 36px;
+		font-size: 48px;
 		@include fade-in;
 	}
 	.introduce {

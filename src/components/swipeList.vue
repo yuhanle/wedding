@@ -1,7 +1,7 @@
 ﻿<template>
 	<div class="list">
 		<swiper :options="swiperOption" >
-			<swiper-slide v-for="item in imgArr" :key="swipeList"><img :src="item.src"/></swiper-slide>
+			<swiper-slide v-for="(item, index) in imgArr" :key="swipeList"><img :src="item.src"/></swiper-slide>
 			<div class="swiper-pagination" slot="pagination"></div>
 		</swiper>
 	</div>
@@ -44,7 +44,7 @@
 
 <style lang='scss'>
 	.list {
-		width:100%;
+		width: 100%;
 		left: 0;
 		top: 790px;
 		height: 222px;

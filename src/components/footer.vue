@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class='company'>
-            <p>Copyright © 2017 W&S Inc. 保留所有权利。  |   联系邮箱  shibo.doit@icloud.com</p>
+            <p>联系邮箱  shibo.doit@icloud.com</p>
         </div>
     </footer>
 </template>
@@ -41,7 +41,8 @@ export default {
         top: 1000px;
         margin-top: 10px;
         left: 0;
-        height: 310px;
+        height: 300px;
+        width: 100%;
         background: #191919;
     }
     .address {

@@ -16,7 +16,7 @@
 	},{
 		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg3.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg4.jpg'
+		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg7.jpg'
 	},{
 		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg5.jpg'
 	},{
