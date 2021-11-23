@@ -3,7 +3,6 @@
         <div class='address'>
             <div class='data'>
                 <img :src='src' />
-                <p>联系电话：18916844451</p>
                 <p>河南省信阳市新县沙窝镇健康路</p>
             </div>
             <div class='link'>
@@ -11,7 +10,7 @@
             </div>
         </div>
         <div class='company'>
-            <p>联系邮箱  shibo.doit@icloud.com</p>
+            <p>联系邮箱  wancode@foxmail.com</p>
         </div>
     </footer>
 </template>

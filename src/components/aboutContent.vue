@@ -39,7 +39,7 @@
 		name: 'aboutContent',
 		data () {
 			return {
-				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/about.jpg',
+				src: 'https://cdn.yuhanle.com//wedding/img/about.jpg',
 				docs: docs
 			}
 		}

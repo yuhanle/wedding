@@ -10,17 +10,17 @@
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
 	const imgArr = [{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg2.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg2.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg3.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg3.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg7.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg7.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg5.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg5.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg6.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg6.jpg'
 	}];
 	export default {
 		name: 'swipe',

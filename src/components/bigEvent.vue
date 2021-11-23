@@ -26,8 +26,8 @@
 		name: 'bigEvent',
 		data () {
 			return {
-				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/poster2.jpg',
-				src2: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share2.jpg'
+				src: 'https://cdn.yuhanle.com//wedding/img/poster2.jpg',
+				src2: 'https://cdn.yuhanle.com//wedding/img/share2.jpg'
 			}
 		}
 	}
