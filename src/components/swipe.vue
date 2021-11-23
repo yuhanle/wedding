@@ -1,7 +1,7 @@
 ﻿<template>
 	<div class="swipe">
 		<swiper :options="swiperOption" >
-			<swiper-slide v-for="item in imgArr" :key='item.src'><img :src="item.src"/></swiper-slide>
+			<swiper-slide v-for="item in imgArr" :key="item.src"><img :src="item.src"/></swiper-slide>
 			<div class="swiper-pagination" slot="pagination"></div>
 		</swiper>
 	</div>
@@ -10,17 +10,17 @@
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
 	const imgArr = [{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg2.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg2.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg3.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg3.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg4.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg7.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg5.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg5.jpg'
 	},{
-		src:'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/home_bg6.jpg'
+		src:'https://cdn.yuhanle.com//wedding/img/home_bg6.jpg'
 	}];
 	export default {
 		name: 'swipe',
@@ -33,7 +33,14 @@
 				swiperOption: {
 					pagination: '.swiper-pagination',
 					paginationClickable: true,
-                    autoplay: 5000
+                    autoplay: 5000,
+					effect: "coverflow",
+					parallax: true,
+					// Disable preloading of all images
+		          	preloadImages: false,
+		          	// Enable lazy loading
+		          	lazyLoading: true,
+					loop: true
 				},
 				imgArr: imgArr
 			}

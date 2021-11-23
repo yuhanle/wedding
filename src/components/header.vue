@@ -6,7 +6,7 @@
             </router-link>
             <div class="nav-item">
                 <ul>
-                    <li @mouseover='addClass($event)' @mouseleave='rmClass($event)' v-for="item in navItems" @click="toLink(item.link,$event)">
+                    <li @mouseover='addClass($event)' @mouseleave='rmClass($event)' v-for="(item, index) in navItems" @click="toLink(item.link,$event)">
                         {{item.text}}
                     </li>
                 </ul>
@@ -67,7 +67,7 @@ export default {
 <style lang='scss'>
     header {
         width: 100%;
-        height: 100px;
+        height: 80px;
         background: rgba(0, 0, 0, 0.6);
         position: fixed;
         z-index: 9;
@@ -82,7 +82,7 @@ export default {
         height: 54px;
         position: relative;
         left: 15%;
-		top: 25%;
+		top: 20%;
         cursor: pointer;
     }
     .nav-item {
@@ -92,7 +92,7 @@ export default {
             padding: 0;
             position: relative;
             left: 25%;
-            bottom: 20px;
+            bottom: 25px;
         }
     }
     li {

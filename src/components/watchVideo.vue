@@ -14,7 +14,7 @@
 				<img :src='src2' />
 				<div class='ad'>
 					<h3>终于等到你<br>在2017年的这一天</h3>
-					<p class='word'>W&S，在不断的相处和磨合中，不仅建立深厚的革命友谊，更是在生活中充满和谐。</p>
+					<p class='word'>今夕何夕，空气里都充满了醉人的甜蜜。</p>
 				</div>
 			</div>
 		</div>
@@ -28,11 +28,11 @@
 		name: 'watchVideo',
 		data () {
 			return {
-				src: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/bigevent.jpg',
-				src2: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/share3.jpg',
+				src: 'https://cdn.yuhanle.com//wedding/img/bigevent.jpg',
+				src2: 'https://cdn.yuhanle.com//wedding/img/share3.jpg',
 				video: {
-		          url: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/wedding.mp4',
-		          pic: 'http://7xqhcq.com1.z0.glb.clouddn.com/wedding/img/poster.jpg'
+		          url: 'https://cdn.yuhanle.com//wedding/wedding.mp4',
+		          pic: 'https://cdn.yuhanle.com//wedding/img/poster.jpg'
 		        },
 				autoplay: false
 			}
